@@ -1,0 +1,120 @@
+/*
+Template Name: Prop Find
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************listing****************/
+.center_list{
+padding-top:40px;
+padding-bottom:40px; 
+background:#f4f4f4;
+ }
+.feature_2{
+ margin-top:15px;
+ }
+.product_1_last{
+margin-top:30px; 
+ }
+.product_1_last ul li{
+ display:inline-block;
+ margin: 0 2px;
+ width:45px;
+ height:45px;
+ line-height:45px;
+ background:#fff;
+ text-align:center;
+ border-radius:3px;
+ }
+.product_1_last ul li a{
+display:block;
+color: #274abb;
+ }
+.product_1_last ul li:hover{
+ background: #274abb;
+ }
+.product_1_last ul li:hover a{
+ color: #fff;
+ }
+.act{
+  background: #274abb!important;
+ }
+.act a{
+ color: #fff!important;
+ }
+.center_main_1r{
+background:#274abb;
+padding:20px 15px;
+margin-top:25px;
+ }
+.center_main_1r .form-control{
+margin-top:15px;
+font-size:16px;
+ }
+.center_main_1ri .input-group{
+margin-top:15px; 
+ }
+.center_main_1ri .input-group .btn{
+padding:6px 9px; 
+ }
+.head_1{
+    border-bottom: 3px solid #274abb;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.center_list_1r1i{
+ margin-top:25px;
+ }
+.center_list_1r1i img{
+float:left;
+margin-right:15px; 
+ }
+.center_list_1r1 ul li{
+display:inline-block;
+margin-bottom:8px;
+ }
+.center_list_1r1 ul li a{
+display:block;
+background:#fff;
+border:1px solid #eee;
+padding:5px 10px 8px 10px; 
+ }
+.center_list_1r1 ul li a:hover{
+background:#274abb;
+color:#fff;
+border:1px solid #274abb;
+ }
+/*********************listing_end****************/
+
+@media screen and (max-width : 767px){
+.center_list_1r {
+margin-top:15px;
+text-align:center; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_main_1ri .input-group .btn {
+    padding: 6px 1px;
+}
+.center_main_1r .col-sm-6{
+padding-left:1px;
+padding-right:1px; 
+ }
+.center_main_1r{
+padding:20px 8px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.center_main_1ri .input-group .btn {
+    padding: 6px 3px;
+}
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

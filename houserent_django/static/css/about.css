@@ -1,0 +1,199 @@
+/*
+Template Name: Prop Find
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************about****************/
+.center_blog{
+padding-top:50px;
+padding-bottom:50px; 
+ }
+.about_1{
+margin-top:30px; 
+ }
+.about_1l h4{
+border-bottom: 3px solid #274abb;
+display:inline-block;
+padding-bottom:10px; 
+ }
+.serv_home_1i1{
+background: #121B22;
+padding:35px 20px 40px 20px; 
+ }
+.serv_home_1i2 span{
+display:block; 
+ }
+.serv_home_1i2 span i{
+background:#274abb;
+width:70px;
+height:70px;
+text-align:center;
+line-height:70px;
+border-radius:50%;
+display:inline-block;
+color:#fff;
+font-size:32px;
+ }
+.serv_home_1i2{
+position:absolute;
+top:-35px;
+right:30px;
+ }
+.serv_home_1i{
+position:relative; 
+ }
+.serv_home_1{
+margin-top:40px; 
+ }
+.serv_home_m{
+background:#ffffffcf;
+padding-top:100px;
+padding-bottom:100px; 
+ }
+#serv_home{
+background-image: url(../img/10.jpg);
+background-position: center; 
+background-attachment:fixed;
+ }
+
+#about_home{
+ padding-top:80px;
+ padding-bottom:80px;
+ }
+.about_home_1i .span_1{
+display:inline-block;
+float:left; 
+font-size:50px;
+margin-right:20px;
+line-height:0;
+ }
+.about_home_1i h3{
+display:inline-block;
+ }
+.about_home_1i h3 .span_2{
+font-size:18px;
+font-weight:100;
+ }
+ 
+#team_h{
+padding-top:40px;
+padding-bottom:40px; 
+background:#f4f4f4;
+ }
+
+h6.description{
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #999;
+	border-bottom: 1px solid rgba(0, 0, 0,0.1);
+	padding-bottom: 5px;
+}
+.profile{
+	margin-top: 30px;
+}
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile .img-box:after{
+	content:"";
+	opacity: 0;
+	background-color: #ffffffcf;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+	opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+	font-size: 18px;
+}
+.img-box ul li{
+	width: 40px;
+    height: 40px;
+	line-height:40px;
+    text-align: center;
+	background: #303441;
+    margin:0px 1px;
+	display: inline-block;
+}
+.img-box a{
+	color:#fff;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul a{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+	color: #fff;
+	background:#274abb;
+}
+i.red{
+    color:#BC0213;
+}
+.profilei{
+ background:#fff;
+ padding:10px 10px 20px 10px;
+ }
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_1l {
+text-align:center;
+margin-bottom:15px; 
+ }
+.serv_home_1i{
+margin-top:50px; 
+ }
+.about_home_1i .span_1{
+display:block;
+float:none;
+margin-right:0;
+margin-bottom:5px;
+ }
+.about_home_1i{
+float:left;
+margin:10px;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

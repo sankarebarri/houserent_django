@@ -1,0 +1,63 @@
+/*
+Template Name: Prop Find
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************contact****************/
+.center_blog{
+padding-top:50px;
+padding-bottom:50px; 
+ }
+.contact_1{
+margin-top:30px; 
+ }
+.contact_1il .form-control{
+height:50px;
+font-size:16px;
+margin-top:20px;
+width:70%;
+ }
+.contact_1il .form_1{
+height:150px;
+width:100%;
+ }
+.contact_1ir h4{
+ border-color:#fff;
+ color:#fff;
+ }
+.contact_1ir{
+background:#274abb;
+padding:60px 30px; 
+ }
+.contact_1ir h5 i{
+margin-right:5px;
+ }
+/*********************contact_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_blog{
+text-align:center;
+ }
+.contact_1ir {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.contact_1ir  h5{
+font-size:16px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+

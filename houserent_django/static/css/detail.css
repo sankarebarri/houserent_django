@@ -1,0 +1,244 @@
+/*
+Template Name: Prop Find
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************listing_detail****************/
+.center_detail{
+padding-top:40px;
+padding-bottom:40px; 
+background:#f4f4f4;
+ }
+.center_detail_1li h3 .span_1{
+background:#274abb;
+color:#fff;
+font-size:16px;
+padding:3px 15px 6px 15px;
+border-radius:30px;
+margin-left:20px;
+ }
+.center_detail_1li h3 .span_2{
+font-size:24px;
+color:#274abb; 
+ }
+.center_detail_1li1{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+#main_area{
+margin-top:35px; 
+ }
+#main_area .thumbnail{
+margin-bottom:0;
+padding:0;
+border:none; 
+ }
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+background:#274abb;
+width:50px;
+height:50px;
+font-size:20px;
+line-height:50px;
+border-radius:50%; 
+ }
+#main_area .carousel-control{
+background:none;
+opacity:1; 
+ }
+#main_area .glyphicon-chevron-left:hover{
+background:#000;
+ }
+#main_area .glyphicon-chevron-right:hover{
+background:#000;
+ }
+.center_detail_1li2{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.center_detail_1li2i h5 i{
+ margin-right:5px;
+ }
+.center_detail_1li3{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.center_detail_1li3i h5 i{
+margin-right:5px; 
+ }
+.center_detail_1li4{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.center_detail_1li4i{
+margin-top:35px; 
+border-bottom:1px solid #eee;
+padding-bottom:35px;
+ }
+.center_detail_1li5{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.center_detail_1li5 .form-control{
+height:45px;
+color:#333;
+font-size:16px;
+margin-top:20px; 
+ }
+.center_detail_1li5 .form_1{
+height:150px;
+ }
+ 
+.center_detail_1ri1{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.center_detail_1ri1i .form-control{
+height:40px;
+font-size:16px;
+color:#333; 
+ }
+.center_detail_1ri1i1 .input-group{
+margin-top:15px; 
+ }
+.center_detail_1ri1 h4 i{
+margin-right:5px; 
+ }
+.center_detail_1ri1i1 img{
+float:left;
+margin-right:15px; 
+ }
+.center_detail_1ri1 h6 i{
+margin-right:5px; 
+ }
+.center_detail_1ri1 .form_1{
+height:40px;
+font-size:16px;
+color:#333;
+border-radius:0;
+margin-bottom:15px; 
+ }
+.center_detail_1ri1 .form_2{
+height:140px;
+font-size:16px;
+color:#333;
+border-radius:0;
+margin-bottom:15px; 
+ }
+.center_list_1r1i{
+ margin-top:25px;
+ }
+.center_list_1r1i img{
+float:left;
+margin-right:15px; 
+ }
+.center_list_1r1{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+ 
+.center_detail_1ri2{
+padding:20px 20px;
+background:#fff;
+margin-top:30px; 
+ }
+.feature_2im4 ul li{
+margin-left:2px;
+margin-right:2px; 
+ }
+.feature_2_last {
+    margin-top: 20px!important;
+}
+.center_list_1r1 ul li{
+display:inline-block;
+margin-bottom:8px;
+ }
+.center_list_1r1 ul li a{
+display:block;
+background:#fff;
+border:1px solid #eee;
+padding:5px 10px 8px 10px; 
+ }
+.center_list_1r1 ul li a:hover{
+background:#274abb;
+color:#fff;
+border:1px solid #274abb;
+ }
+.feature_2m_last{
+background:#fafafa; 
+ }
+/*********************listing_detail_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.center_detail_1li{
+text-align:center; 
+ }
+.center_detail_1li h3{
+font-size:20px; 
+ }
+.center_detail_1li h3 .span_2{
+font-size:16px; 
+float:none!important; 
+ }
+.center_detail_1li h3 .span_1{
+margin-left:5px;
+display:inline-block;  
+ }
+.carousel-inner img{
+min-height:300px; 
+ }
+.hide-bullets{
+display:none; 
+ }
+.center_detail {
+ text-align:center;
+ }
+.center_detail_1li3 {
+ text-align:left; 
+ }
+.center_detail_1li4i img{
+margin-bottom:15px; 
+ }
+.center_detail_1li4i h5{
+font-size:16px; 
+ }
+.center_detail_1li5i h5{
+ text-align:center;
+ margin-top:15px!important; 
+ }
+.feature_1 {
+ text-align:left;  
+ }
+.feature_2 {
+ text-align:left;  
+ }
+.center_detail_1li4 {
+ text-align:left;  
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_detail_1li  h3{
+font-size:20px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
+
